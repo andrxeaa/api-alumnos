@@ -4,7 +4,7 @@ service: api-alumnos
 provider:
   name: aws
   runtime: python3.13
-  timeout: 20  
+  timeout: 30  
   iam:
     role: arn:aws:iam::773697219055:role/LabRole
 
